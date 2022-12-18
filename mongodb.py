@@ -10,8 +10,7 @@ import pprint
 print("Iniciando a conexão com o MongoDB")
 
 # Cria a conexão com o MongoDB
-connection = pymongo.MongoClient("mongodb+srv://mongodb:<senha>@cluster0.myf7sr6.mongodb.net/"
-                                 "?retryWrites=true&w=majority")
+connection = pymongo.MongoClient("link-para-o-mongo-db")
 
 # Cria o banco de dados e a collection
 db = connection.bank
